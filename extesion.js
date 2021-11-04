@@ -1,6 +1,10 @@
 let ingresarNombre = prompt ("Ingrese su nombre");
-console.log("Ingrese su nombre");
-alert("Tu nombre es: " + ingresarNombre)
+let ingresarEdad = prompt ("Ingrese su edad");
+if ((ingresarNombre == " ") && (ingresarEdad == " ")) {
+   console.log("Tu nombre es: " + ingresarNombre + "Tu edad es: " + ingresarEdad);
+} else {
+    alert("Tu nombre es: " + ingresarNombre + "\nTu edad es: " + ingresarEdad);
+}
 
 let n1 = Number( prompt ("Ingresa un numero para una suma"));
 let n2 = Number( prompt ("Ingresa otro numero"));
