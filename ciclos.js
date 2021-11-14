@@ -1,8 +1,3 @@
-// let saludo = "Hola Coder!";
-// for (let i = 0; i <= 10; i++){
-//     alert(saludo + " Este es el indice: " + i);
-// }
-
 alert("Haz entrado a un concurso de adivinar un numero, si ganas, ganaras un ¡premio!");
 let numero = prompt("Ingrese un numero del 1 al 10.")
 let numerosIngresados = "";
