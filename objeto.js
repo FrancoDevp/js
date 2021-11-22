@@ -22,7 +22,6 @@ class PlanesMobiles {
       } break;
     }
     alert("Nuestra pagina esta en desarollo. Gracias por elegir MoviSpace!")
-    alert("Sonido automatico activado, regularlo y disfrutelo.")
  }
 }
 let planesMobiles1 = new PlanesMobiles (350, 650, 1150,1850);
