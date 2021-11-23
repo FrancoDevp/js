@@ -1,7 +1,7 @@
 const packs = [{id: 1, producto:"pack-3", precio:350},
-                    {id: 2, producto:"pack-5", precio:650},
-                    {id: 3, producto:"pack-6", precio:1150},
-                    {id: 4, producto:"pack-15", precio:1850}];
+               {id: 2, producto:"pack-5", precio:650},
+               {id: 3, producto:"pack-6", precio:1150},
+               {id: 4, producto:"pack-15", precio:1850}];
 const planes = packs.find(producto => producto.producto === "pack-3"); // buscamos el pack-3
 const planes2 = packs.filter(producto => producto.precio < 1000); //Filtramos un plan por de bajo de $1000.
 const planes3 = packs.map(producto => producto.precio * 1.21) //Agreamos IVA.
@@ -9,6 +9,7 @@ console.log(planes);
 console.log(planes2);
 console.log(planes3);
 
+// DESAFIO COMPLEMENTARIO.
 
 const samsung = [{ producto: "s10", precio: 58999 },
                  { producto: "s21", precio: 108000 },
@@ -21,6 +22,7 @@ samsung.sort(function (item1, item2) {
         });
 console.log(samsung)
 
+
 const personas = [{edad: "23", nombre: "franco" },
                  { edad: "15", nombre: "luciana" },
                  { edad: "38", nombre: "Ana" },
@@ -30,6 +32,7 @@ personas.sort(function (pers1, pers2) {
 return pers2.edad - pers1.edad
 });
 console.log(personas)
+alert(personas)
 
 const fechas = [{ nombre: "franco", Birthday: "03/17/1990" },
                  { nombre: "Juampa", Birthday: "10/28/1997" },
