@@ -32,7 +32,6 @@ personas.sort(function (pers1, pers2) {
 return pers2.edad - pers1.edad
 });
 console.log(personas)
-alert(personas)
 
 const fechas = [{ nombre: "franco", Birthday: "03/17/1990" },
                  { nombre: "Juampa", Birthday: "10/28/1997" },
@@ -41,6 +40,6 @@ const fechas = [{ nombre: "franco", Birthday: "03/17/1990" },
                  { nombre: "Vale",   Birthday: "02/21/1995" }];
 const dateBirthday = fechas.map(item => Date.parse(item.Birthday));
 fechas.sort(function (f1, f2) {
-    return Date.parse(f2.Birthday) - Date.parse(f1.Birthday)
+    return Date.parse(f1.Birthday) - Date.parse(f2.Birthday)
     });
 console.log(fechas)
